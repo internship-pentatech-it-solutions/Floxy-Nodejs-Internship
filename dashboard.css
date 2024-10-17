@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-member-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-member-btn:hover {
+    background-color: #3e8e41;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.member-list {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.member-list h2 {
+    margin-top: 0;
+}
+
+.member-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.member-list th,
+.member-list td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.member-list th {
+    text-align: left;
+    background-color: #333;
+    color: #fff;
+}
+
+.member-list td {
+    text-align: left;
+}
+
+.member-list img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.edit-btn,
+.delete-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: #3e8e41;
+}
